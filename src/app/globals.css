@@ -79,3 +79,21 @@
     color: black;
   }
 }
+
+/* Additional responsive design for mobile screens */
+@media (max-width: 639px) {
+  .contain {
+    background-color: var(--bgSecondary);
+    color: var(--textColor);
+  }
+
+  .dark {
+    background-color: var(--bgSecondary);
+    color: var(--textColor);
+  }
+
+  .light {
+    background-color: white;
+    color: black;
+  }
+}
