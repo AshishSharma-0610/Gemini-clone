@@ -45,4 +45,28 @@
 
 @media (min-width: 768px) {
   .contain {
-    @apply md:bg-
+    @apply md:bg-secondary md:text-textColor;
+  }
+
+  .dark {
+    @apply md:bg-secondary md:text-textColor md:soft:bg-softBg md:soft:text-softTextColor;
+  }
+
+  .light {
+    @apply md:bg-white md:text-black md:soft:bg-softBg md:soft:text-softTextColor;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contain {
+    @apply lg:bg-secondary lg:text-textColor;
+  }
+
+  .dark {
+    @apply lg:bg-secondary lg:text-textColor lg:soft:bg-softBg lg:soft:text-softTextColor;
+  }
+
+  .light {
+    @apply lg:bg-white lg:text-black lg:soft:bg-softBg lg:soft:text-softTextColor;
+  }
+}
