@@ -31,11 +31,11 @@
 /* Responsive design */
 @media (min-width: 640px) {
   .contain {
-    @apply sm:bg-bgSecondary sm:text-textColor;
+    @apply sm:bg-secondary sm:text-textColor;
   }
 
   .dark {
-    @apply sm:bg-bgSecondary sm:text-textColor sm:soft:bg-softBg sm:soft:text-softTextColor;
+    @apply sm:bg-secondary sm:text-textColor sm:soft:bg-softBg sm:soft:text-softTextColor;
   }
 
   .light {
@@ -45,28 +45,4 @@
 
 @media (min-width: 768px) {
   .contain {
-    @apply md:bg-bgSecondary md:text-textColor;
-  }
-
-  .dark {
-    @apply md:bg-bgSecondary md:text-textColor md:soft:bg-softBg md:soft:text-softTextColor;
-  }
-
-  .light {
-    @apply md:bg-white md:text-black md:soft:bg-softBg md:soft:text-softTextColor;
-  }
-}
-
-@media (min-width: 1024px) {
-  .contain {
-    @apply lg:bg-bgSecondary lg:text-textColor;
-  }
-
-  .dark {
-    @apply lg:bg-bgSecondary lg:text-textColor lg:soft:bg-softBg lg:soft:text-softTextColor;
-  }
-
-  .light {
-    @apply lg:bg-white lg:text-black lg:soft:bg-softBg lg:soft:text-softTextColor;
-  }
-}
+    @apply md:bg-
