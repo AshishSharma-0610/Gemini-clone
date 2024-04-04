@@ -31,42 +31,51 @@
 /* Responsive design */
 @media (min-width: 640px) {
   .contain {
-    @apply sm:bg-secondary sm:text-textColor;
+    background-color: var(--bgSecondary);
+    color: var(--textColor);
   }
 
   .dark {
-    @apply sm:bg-secondary sm:text-textColor sm:soft:bg-softBg sm:soft:text-softTextColor;
+    background-color: var(--bgSecondary);
+    color: var(--textColor);
   }
 
   .light {
-    @apply sm:bg-white sm:text-black sm:soft:bg-softBg sm:soft:text-softTextColor;
+    background-color: white;
+    color: black;
   }
 }
 
 @media (min-width: 768px) {
   .contain {
-    @apply md:bg-secondary md:text-textColor;
+    background-color: var(--bgSecondary);
+    color: var(--textColor);
   }
 
   .dark {
-    @apply md:bg-secondary md:text-textColor md:soft:bg-softBg md:soft:text-softTextColor;
+    background-color: var(--bgSecondary);
+    color: var(--textColor);
   }
 
   .light {
-    @apply md:bg-white md:text-black md:soft:bg-softBg md:soft:text-softTextColor;
+    background-color: white;
+    color: black;
   }
 }
 
 @media (min-width: 1024px) {
   .contain {
-    @apply lg:bg-secondary lg:text-textColor;
+    background-color: var(--bgSecondary);
+    color: var(--textColor);
   }
 
   .dark {
-    @apply lg:bg-secondary lg:text-textColor lg:soft:bg-softBg lg:soft:text-softTextColor;
+    background-color: var(--bgSecondary);
+    color: var(--textColor);
   }
 
   .light {
-    @apply lg:bg-white lg:text-black lg:soft:bg-softBg lg:soft:text-softTextColor;
+    background-color: white;
+    color: black;
   }
 }
